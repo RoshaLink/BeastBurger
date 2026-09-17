@@ -1,0 +1,108 @@
+// The Beast Burger menu — burgers only.
+
+export const burgers = [
+  {
+    id: "classic",
+    image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=900&q=85",
+    name: { en: "The Classic Beast", sv: "The Classic Beast" },
+    desc: {
+      en: "Smashed beef, cheddar, pickles, onion, Beast sauce, toasted bun.",
+      sv: "Smashad nötfärs, cheddar, pickles, lök, Beast-sås, rostat bröd.",
+    },
+    price: "129 kr",
+    tag: { en: "The original legend", sv: "Den ursprungliga legenden" },
+    heat: 0,
+    accent: "#f5b942",
+  },
+  {
+    id: "double",
+    image: "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?auto=format&fit=crop&w=900&q=85",
+    name: { en: "Double Trouble", sv: "Double Trouble" },
+    desc: {
+      en: "Two smashed patties, double cheddar, crispy onion, smoky mayo.",
+      sv: "Två smashade biffar, dubbel cheddar, krispig lök, rökig mayo.",
+    },
+    price: "159 kr",
+    tag: { en: "Double the punch", sv: "Dubbel smäll" },
+    heat: 0,
+    accent: "#e8862e",
+  },
+  {
+    id: "mode",
+    image: "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=900&q=85",
+    name: { en: "Beast Mode", sv: "Beast Mode" },
+    desc: {
+      en: "Double smashed beef, jalapeños, pepper jack, chipotle Beast sauce.",
+      sv: "Dubbel smashad nötfärs, jalapeño, pepper jack, chipotle-Beast-sås.",
+    },
+    price: "165 kr",
+    tag: { en: "Turn up the heat", sv: "Skruva upp värmen" },
+    heat: 2,
+    accent: "#d94f30",
+  },
+  {
+    id: "truffe",
+    image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=900&q=85",
+    name: { en: "Truffe Beast", sv: "Truffe Beast" },
+    desc: {
+      en: "Smashed beef, truffle mayo, aged gruyère, caramelized onions.",
+      sv: "Smashad nötfärs, tryffelmayo, lagrad gruyère, karamelliserad lök.",
+    },
+    price: "175 kr",
+    tag: { en: "The fancy one", sv: "Den finurliga" },
+    heat: 0,
+    accent: "#b98a4f",
+  },
+  {
+    id: "blue",
+    image: "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=900&q=85",
+    name: { en: "Blue Moose", sv: "Blue Moose" },
+    desc: {
+      en: "Smashed beef, blue cheese, bacon jam, rocket, garlic aioli.",
+      sv: "Smashad nötfärs, blåmögelost, baconjam, ruccola, vitlöksaioli.",
+    },
+    price: "169 kr",
+    tag: { en: "Bold & blue", sv: "Modig & blå" },
+    heat: 0,
+    accent: "#5a7d9a",
+  },
+  {
+    id: "swedish",
+    image: "https://images.unsplash.com/photo-1553979459-d2229ba7433b?auto=format&fit=crop&w=900&q=85",
+    name: { en: "Swedish Beast", sv: "Svenska Beast" },
+    desc: {
+      en: "Smashed beef, pressed cucumber, mustard mayo, crispy shallots.",
+      sv: "Smashad nötfärs, pressad gurka, senapsmayo, krispiga schalottenlökar.",
+    },
+    price: "149 kr",
+    tag: { en: "Nordic soul", sv: "Nordisk själ" },
+    heat: 0,
+    accent: "#3f7d5c",
+  },
+  {
+    id: "cowboy",
+    image: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=900&q=85",
+    name: { en: "Beast Cowboy", sv: "Beast Cowboy" },
+    desc: {
+      en: "Smashed beef, BBQ sauce, cheddar, onion rings, pickled chilli.",
+      sv: "Smashad nötfärs, BBQ-sås, cheddar, lökringlar, inlagd chili.",
+    },
+    price: "169 kr",
+    tag: { en: "Ride it out", sv: "Rid ut det" },
+    heat: 1,
+    accent: "#8a5a2b",
+  },
+  {
+    id: "mega",
+    image: "https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?auto=format&fit=crop&w=900&q=85",
+    name: { en: "Mega Beast", sv: "Mega Beast" },
+    desc: {
+      en: "Triple smashed beef, triple cheese, Beast sauce. Bring a friend.",
+      sv: "Trippel smashad nötfärs, trippel ost, Beast-sås. Ta med en vän.",
+    },
+    price: "199 kr",
+    tag: { en: "The ultimate challenge", sv: "Den ultimata utmaningen" },
+    heat: 0,
+    accent: "#c0392b",
+  },
+];
